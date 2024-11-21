@@ -6,7 +6,7 @@ export default function Floor() {
       <RigidBody type="fixed" restitution={0.2} friction={1}>
         <mesh receiveShadow>
           <boxGeometry args={[100, 0.2, 100]} />
-          <meshStandardMaterial color={"#e77d11"} />
+          <meshStandardMaterial color={"white"} />
         </mesh>
       </RigidBody>
     </>
